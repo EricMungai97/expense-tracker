@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  color: rgb(44, 134, 26);
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+
+
+#name {
+  width: 60vw;
+}
+
+#date {
+  width: 30vw;
+}
+
+#nem {
+  margin-bottom: 20px;
+
+}
+
+#expenseForm {
+  text-align: center;
+  font-size: 20pt;
+
+}
+
+#det {
+  margin-right: 135px;
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  font-size: 15pt;
+  color: aliceblue;
+  background-color: rgb(44, 134, 26);
+  border-radius: solid white  10px;
+  margin-bottom: 20px;
+}
+
+table {
+  border: solid silver;
+  margin: auto;
+  width: 60vw;
+}
+
+tr {
+  border: solid silver;
+}
+
+th {
+  border: solid silver;
+  font-weight: bold;
+}
+
+td {
+  border: solid silver;
+}

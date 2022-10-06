@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Add a New Item</h1>
+  </header>
+  <main>
+    <form id="expenseForm">
+      <fieldset id="nem">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Where was the expense made?" requined>
+      </fieldset>
+      <fieldset id="det">
+        <label for="date">Date</label>
+        <input id="date" type="date" name="date" required>
+        <label for="amount">Amount</label>
+        <input id="amount" type=" number" name="amount">
+      </fieldset>
+      <fieldset>
+      <button type="submit">Add Expense</button>
+      </fieldset>
+    </form>
+    <table id="meza">
+      
+    </table>
+  </main>
+</body>
+<script src="js/app.js"></script>
+
+</html>
